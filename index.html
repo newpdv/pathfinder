@@ -1,0 +1,32 @@
+<!--
+*
+* Copyright 2012
+* Denis Platonov (newpdv)
+* http://habrahabr.ru/users/newpdv/
+* newpdv@gmail.com
+*
+-->
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <title>Path finder JS</title>
+        <link rel="stylesheet" href="main.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="finder.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                pfinder.genArea(10, 10);
+                pfinder.setStart(2, 3);
+                pfinder.setEnd(5, 9);
+                pfinder.find();
+            });
+        </script>
+    </head>
+    <body>
+        <div id="area">
+
+        </div>
+    </body>
+</html>

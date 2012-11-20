@@ -1,0 +1,47 @@
+/*
+*
+* Copyright 2012
+* Denis Platonov (newpdv)
+* http://habrahabr.ru/users/newpdv/
+* newpdv@gmail.com
+*
+*/
+
+#area{
+    width: 100%;
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.block{
+    width: 20px;
+    height: 20px;
+    float: left;
+    border: 1px solid black;
+    margin: 1px;
+    overflow: hidden;
+    font-size: 8px;
+}
+
+.curr{
+    background-color: green;
+}
+
+.end{
+    background-color: red;
+}
+
+.close{
+    border: 1px dashed blue;
+}
+
+.open{
+    border: 1px dotted blue;
+}
+
+.barrier{
+    background-color: black;
+}
